@@ -5,7 +5,7 @@ var gulp = require('gulp'),
     rename = require('gulp-rename'),
 	concat = require('gulp-concat');
 
-gulp.task('test', function () {
+gulp.task('test', ['build'], function () {
 	gulp.src('./test/**/*.js')
 		.pipe(mocha({ reporter: 'list' }));
 });
