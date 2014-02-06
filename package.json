@@ -1,22 +1,23 @@
 {
-	"name" : "mypromises6",
-	"description" : "A Promises/A+ implementation using ES6 features",
-	"version" : "0.0.1",
-	"license" : "MIT",
-	"author" : "Christof Marti",
-	"main" : "mypromises6.js",
-	"repository" : {
-		"type" : "git",
-		"url" : "https://github.com/kreeeeeeeees/mypromises6.git"
-	},
-	"dependencies" : {
-		"traceur" : "*"
-	},
-	"devDependencies" : {
-		"promises-aplus-tests" : "*",
-		"mocha" : "*"
-	},
-	"scripts" : {
-		"test" : "mocha"
-	}
+  "name": "mypromises6",
+  "description": "A Promises/A+ implementation using ES6 features",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Christof Marti",
+  "main": "mypromises6.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kreeeeeeeees/mypromises6.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gulp": "*",
+    "traceur": "*",
+    "gulp-traceur": "*",
+    "gulp-concat": "*",
+    "gulp-rename": "*",
+    "gulp-mocha": "*",
+    "promises-aplus-tests": "*"
+  }
 }
